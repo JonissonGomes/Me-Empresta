@@ -1,0 +1,179 @@
+*{
+    text-decoration: none;
+}
+body{
+    margin: 0 auto;
+    text-decoration: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: white;
+}
+
+header{
+    background-color: blueviolet;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 100px;
+    padding-top: 0.90%;
+    padding-left: 8%;
+    padding-right: 6%;
+    font-size: 17px;
+
+}
+header a{
+    color: white;
+}
+
+header section a{
+    margin: 0 5px;
+    color: white;
+}
+
+header h3{
+    font-size: 20px;
+    color: white;
+}
+
+
+main{
+    display: flex;
+    height: 88vh;
+}
+
+
+
+main .left {
+    width: 50%;
+    height: 88vh;
+    background-color: blueviolet;
+}
+
+main .left img{
+    height: 650px;
+    margin-top: 15%;
+}
+
+main .right{
+    width: 50%;
+    height: 88vh;
+    color: blueviolet;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+}
+
+main .right h1{
+    margin-top: 15%;
+    font-size: 42px;
+    margin-left: 35%;
+    margin-right: 25%;
+
+}
+
+main .right a{
+    margin-top: 15px;
+    font-size: 18px;
+    margin-left: 35%;
+    margin-right: 25%;
+    transition: 100ms;
+}
+
+main .right a:hover{
+    margin-top: 10px;
+    font-size: 18.3px;
+    margin-left: 35%;
+    margin-right: 25%;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: 100ms;
+}
+
+.form{
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 25%;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+
+.divide_campo label {
+    display: flex;
+}
+
+.nome{
+    margin-right: 70px;
+}
+
+ .divide_campo{
+    display: flex;
+    width: 50%;
+    align-items: space-between;
+}
+
+.divide_campo input[type=text] { 
+    width: 150px;
+    height: 40px;
+    margin-left: -120px;
+    margin-right: 75px;
+    margin-top: 8%;
+    margin-bottom: 5%;
+    font-size: 20px;
+    border-radius:4px;
+    background: #ebe9e9; 
+    outline: auto;
+    outline-color: blueviolet;
+}
+
+
+input[type=text], [type=password]{ 
+    width: 365px;
+    height: 40px;
+    margin-top: 1%;
+    margin-bottom: 4%;
+    font-size: 18px;
+    border-radius:4px;
+    background: #ebe9e9; 
+    outline: auto;
+    outline-color: blueviolet;
+}
+
+input[type=submit] {
+    margin-top: 5%;
+    height: 40px;
+    width: 300px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 20px;
+    transition: 200ms;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+    background-color: blueviolet;
+    color: white;
+    font-size: 24px;
+    transition: 200ms;
+    height: 41px;
+    width: 300px;
+}
+
+input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+}
+
+.form h5{
+    width:70%;
+    margin-top: 0;
+    margin-bottom: -15px;
+    font-size: 18px;
+}
+

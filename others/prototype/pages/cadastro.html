@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar-se</title>
+    <link rel="stylesheet" href="../styles/cadastro.css">
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600;700;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <!-- <img src="/assets/Logo.jpeg" alt="Logo-png"> -->
+        <a href="../index.html"> 
+            <h1>Me Empresta</h1>
+        </a>
+
+        <section>
+            <a href="../index.html"> Voltar para o ínicio </a> |
+            <a href="iniciar-sessao.html"> Iniciar sessão </a>
+        </section>
+    </header>
+
+    <main>
+        <section class="left">
+            <img src="../assets/cadastro.png" alt="Picture">
+        </section>
+
+        <section class="right">
+            <h1>Registrar-se</h1>
+
+            <section class="form">
+                <form action="./homepage.html">
+
+                    <div class="divide_campo">
+                       
+                            <label class="nome"  for=""> Nome:  </label>
+                                <input type="text" name="name_param" id="name" placeholder="João">
+                        
+                            <label for=""> Sobrenome: </label>
+                                <input type="text" name="name_param" id="name" placeholder="Pedro">
+
+                    </div>
+
+                        <label for="">CPF: </label><br>
+                            <input type="text" name="name_param" id="name" maxlength="11" placeholder="(Apenas números)">
+                        <br>
+                        <label for="">Senha: </label><br>
+                            <input type="password" name="name_param" id="name">
+                        <br>
+                        <label for="">Confirmar senha: </label><br>
+                            <input type="password" name="name_param" id="name">
+                        <br>
+
+                        <h5> <input type="checkbox" name="" id="" required="true">  Aceito todos os Termos do contrato.</h5>
+                        <br>
+                  
+                    <input type="submit" value="Iniciar sessão">                        
+                </form>
+
+            </section>
+            <a href="iniciar-sessao.html">Já possui conta? Conecte-se.</a>
+
+        </section>
+    </main>
+
+</body>
+</html>

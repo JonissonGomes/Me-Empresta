@@ -1,0 +1,75 @@
+body{
+    background-color: blueviolet;
+    color: white;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1%  auto;
+}
+
+header section a{
+    margin: 0 5px;
+}
+
+header a{
+    color: white;
+}
+
+header h3{
+    margin: 0 auto;
+    font-size: 25px;
+    color: white;
+}
+
+main{
+    margin-top: 9%;
+    display: flex;
+    align-items: left;
+    justify-items: center;
+    justify-content: center;
+}
+
+.container-introduction{
+    margin-top: 4%;
+}
+
+.container-introduction p{
+    width: 90%;
+}
+
+.container-introduction button{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 320px;
+    height: 70px;
+    font-size: 40px;
+    border-radius: 10px;
+    border: none;
+    transition: 200ms;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.container-introduction button:hover{
+    cursor: pointer;
+    color: purple;
+    font-size: 42px;
+    margin-top: 4.7%;
+    width: 323px;
+    height: 73px;
+    transition: 200ms;
+    border: none;
+    outline: none;
+}
+
+main section h1 {
+    align-items: left;
+    font-size: 58px;
+    
+}
+
+main section img{
+    width: 900px;
+}
