@@ -110,3 +110,91 @@ main .container{
     height: 75vh;
     color: blueviolet;
 }
+
+main .container{
+    margin-top: 3%;
+    padding-top: 10px;
+    margin-left: 8%;
+    margin-right: 7%;
+    background-color:rgb(248, 247, 240);
+    height: 75vh;
+    color: blueviolet;
+}
+
+main .fixed{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 20px;
+}
+
+
+div .container-geral{
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.grid-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.grid-one img {
+    width: 18vw;
+    height: 24vh;
+    border-radius:10px;
+}
+
+.status-container {
+    width: 25%;
+}
+
+.status-container h2 {
+    margin-bottom: 0;
+}
+
+.status-container i {
+    margin-top: 1px;
+}
+
+.status-container h4 {
+    margin-bottom: 0;
+}
+
+.status-container p{
+    margin-top: 3px;
+}
+
+.status-container button {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: blueviolet;
+    width: 370px;
+    height: 30px;
+    font-size: 18px;
+}
+
+.status-container button:hover{
+    cursor: pointer;
+    background-color: rgb(172, 172, 172);
+    color: white;
+}
+
+.grid-two{
+    align-items: center;
+    justify-content: right;
+    margin-left: 85%;
+}
+
+.preco-container h4{
+    margin-bottom: 0;
+}
+
+.preco-container h2{
+    margin-top: 0;
+}

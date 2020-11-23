@@ -49,6 +49,8 @@ main{
     border-radius: 10px;
     border: none;
     transition: 200ms;
+    background-color:yellow;
+    font-weight: 600;
     font-family: 'Montserrat Alternates', sans-serif;
 }
 

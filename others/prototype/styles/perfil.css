@@ -117,3 +117,101 @@ main .fixed{
     margin-left: 2%;
     margin-right: 2%;
 }
+
+.fixed h2{
+    font-size: 36px;
+}
+
+.fixed button{
+    background-color: white;
+    border: 1px solid #ccc;
+    font-size: 18px;
+}
+
+.fixed button:hover{
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+section .box-profile{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 25px;
+    background-color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-profile h3{
+    margin-top: 1px;
+    margin-bottom: 3px;
+}
+
+.box-profile img{
+    border-radius: 200px;
+    width: 10vw;
+    height: 20vh;
+}
+
+.box-profile button{
+    margin-top: 1%;;
+    width: 5vw;
+    height: 7vh;
+    border: 1px solid;
+    background-color: white;
+    border-color: blueviolet;
+    border-radius: 10px;
+}
+
+.box-profile button:hover{
+    cursor: pointer;
+    background-color: rgba(226, 226, 226, 0.678);
+}
+
+
+.box-profile button img{
+    border-radius: 200px;
+    width: 3vw;
+    height: 6vh;
+}
+
+.info-geral{
+    background-color: rgba(202, 199, 199, 0.226);
+    width: 500px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+}
+
+.avaliation h3{
+    font-size: 20px;
+}
+
+.avaliation h2{
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 35px;
+    margin-right: 35px;
+    color: yellow;
+    font-size: 46px;
+    margin-top: 5px;
+    padding-top: 10px;
+    margin-bottom: 1px;
+}
+
+.status{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
